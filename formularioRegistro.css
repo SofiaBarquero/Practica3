@@ -1,0 +1,119 @@
+            h1 { text-align: center;
+    color: #0F3240;
+    font-family: Helvetica}
+h2 { text-align: center;
+    color: #0F3240;
+    font-family: Helvetica}
+
+    p{
+    text-align: center;
+    font-size: 25px;
+    }
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*codigo del menu*/
+nav{
+text-align:left;
+font-family: Helvetica;
+  float:center;
+  margin: 0 auto;
+  width: 550px;
+}
+ul{
+list-style: none;
+text-align:center;
+}
+#menu li>a{
+background-color: grey;
+color: white;
+padding: 10px;
+display: block;
+text-decoration: none;
+min-width: 120px;
+}
+
+#menu li>a:hover{
+color: #000;
+background-color: #eaeaea;
+}
+#menu>li{
+float: left;
+text-align:center;
+
+}
+#menu>li>ul{
+display: none;
+margin-left:0;
+float:left;
+position:absolute;
+padding: 0px;
+background-color:grey;
+width:100px;
+}
+#menu>li:hover>ul {
+display:block;
+
+}
+
+    #menu #Registro a{
+    color: #000;
+    background-color: #eaeaea;
+    }
+
+/*Codigo del formulario*/
+.form-signup {
+  width: 30%;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signup .checkbox {
+  font-weight: 400;
+}
+
+.form-signup .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signup input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signup input[type="nombre"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signup input[type="apellidos"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signup input[type="edad"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signup input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#btnSignUp{
+background-color: #C0E7F7;
+color: #124255;
+border: none;}
+
+#btnSignUp:hover{
+background-color: #91C2D5;
+}
+footer{
+font-size: 15px;
+}

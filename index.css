@@ -1,0 +1,129 @@
+ h1{ text-align: center;
+    color: #0F3240;
+    font-family: Helvetica}
+
+    h2{
+    text-align: left;
+    color: #0F3240;
+    font-family: Helvetica;
+    margin-left: 20px;}
+
+    p{
+    text-align:justify;
+    }
+
+#TITULOBBVA {
+    font-family: Helvetica;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: #124255;
+    background-color: #C0E7F7;
+    border-style: none;
+    border-width: 0.5px;
+    margin: 14px;
+    padding: 25px;
+    border-radius: 14px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+text-align:left;
+font-family: Helvetica;
+  float:center;
+  margin: 0 auto;
+  width: 550px;
+}
+ul{
+list-style: none;
+text-align:center;
+}
+#menu li>a{
+background-color: grey;
+color: white;
+padding: 10px;
+display: block;
+text-decoration: none;
+min-width: 120px;
+}
+
+#menu li>a:hover{
+color: #000;
+background-color: #eaeaea;
+}
+#menu>li{
+float: left;
+text-align:center;
+
+}
+#menu>li>ul{
+display: none;
+margin-left:0;
+float:left;
+position:absolute;
+padding: 0px;
+background-color:grey;
+width:100px;
+}
+#menu>li:hover>ul {
+display:block;
+
+}
+
+#menu #Inicio a{
+color: #000;
+background-color: #eaeaea;
+}
+
+body{
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.DivisionPag {
+  display: grid;
+  grid-template-columns: 1fr,1fr;
+  grid-template-areas: "left right";
+  column-gap: 10px;
+   grid-auto-flow: row;
+   grid-auto-rows: minmax(100px, auto);
+}
+
+.leftSection{
+
+      grid-area:"left";
+
+
+    text-align: left;
+    color: #0F3240;
+    font-family: Helvetica;
+    margin-left: 20px;
+    width: 40%;
+    float: left;
+}
+
+
+.rightSection{
+
+     grid-area:"right";
+
+
+
+    text-align: left;
+    color: #0F3240;
+    font-family: Helvetica;
+    margin-left: 10px;
+    margin-right: 20px;
+
+    float: right;
+}
+
+footer{
+font-size: 15px;
+}
